@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD52F0C72AD6B37D005174E4 /* SpellingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52F0C62AD6B37D005174E4 /* SpellingViewModel.swift */; };
+		DD52F0C92AD6B51C005174E4 /* ChooseTheCorrectOptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52F0C82AD6B51C005174E4 /* ChooseTheCorrectOptionViewModel.swift */; };
+		DD52F0CB2AD6BDA6005174E4 /* CorespondenceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52F0CA2AD6BDA6005174E4 /* CorespondenceViewModel.swift */; };
+		DD52F0CD2AD6C3E0005174E4 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52F0CC2AD6C3E0005174E4 /* AlertView.swift */; };
+		DD81C0442AB07D3800650CA1 /* Ladichka_Perfect_EnglishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C0432AB07D3800650CA1 /* Ladichka_Perfect_EnglishApp.swift */; };
+		DD81C0462AB07D3800650CA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C0452AB07D3800650CA1 /* ContentView.swift */; };
+		DD81C0482AB07D3900650CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD81C0472AB07D3900650CA1 /* Assets.xcassets */; };
+		DD81C04B2AB07D3900650CA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD81C04A2AB07D3900650CA1 /* Preview Assets.xcassets */; };
+		DD81C05D2AB07EC000650CA1 /* NewWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C05C2AB07EC000650CA1 /* NewWordView.swift */; };
+		DD81C0612AB07EDA00650CA1 /* RepeatWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C0602AB07EDA00650CA1 /* RepeatWordView.swift */; };
+		DD81C0632AB07EED00650CA1 /* WordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C0622AB07EED00650CA1 /* WordListView.swift */; };
+		DD81C0652AB07EFB00650CA1 /* CustomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C0642AB07EFB00650CA1 /* CustomToolBar.swift */; };
+		DD81C0682AB0829200650CA1 /* paprika.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD81C0672AB0809600650CA1 /* paprika.ttf */; };
+		DD81C06B2AB0838300650CA1 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C06A2AB0838300650CA1 /* LaunchScreen.swift */; };
+		DD81C06F2AB0869800650CA1 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C06E2AB0869800650CA1 /* Word.swift */; };
+		DD81C0712AB35A2F00650CA1 /* СorrespondenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C0702AB35A2F00650CA1 /* СorrespondenceView.swift */; };
+		DD81C0732AB3610500650CA1 /* ChooseTheCorrectOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C0722AB3610500650CA1 /* ChooseTheCorrectOptionView.swift */; };
+		DD81C0752AB3635800650CA1 /* SpellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C0742AB3635700650CA1 /* SpellingView.swift */; };
+		DD81C07B2AB4C4A700650CA1 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C07A2AB4C4A700650CA1 /* SignInView.swift */; };
+		DD81C07D2AB4C69A00650CA1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C07C2AB4C69A00650CA1 /* SignUpView.swift */; };
+		DD81C07F2AB74C3300650CA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD81C07E2AB74C3300650CA1 /* GoogleService-Info.plist */; };
+		DD81C0822AB74C8700650CA1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DD81C0812AB74C8700650CA1 /* FirebaseAuth */; };
+		DD81C0842AB74C8700650CA1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DD81C0832AB74C8700650CA1 /* FirebaseFirestore */; };
+		DD81C0862AB74C8700650CA1 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DD81C0852AB74C8700650CA1 /* FirebaseFirestoreSwift */; };
+		DD81C0882AB74C8700650CA1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DD81C0872AB74C8700650CA1 /* FirebaseStorage */; };
+		DD81C08B2AB74D0C00650CA1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C08A2AB74D0C00650CA1 /* AuthService.swift */; };
+		DD81C08D2AB74D7000650CA1 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C08C2AB74D7000650CA1 /* UserService.swift */; };
+		DD81C08F2AB74D9100650CA1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C08E2AB74D9100650CA1 /* User.swift */; };
+		DD81C0922AB74E0D00650CA1 /* FirestoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C0912AB74E0D00650CA1 /* FirestoreConstants.swift */; };
+		DD81C0942AB74E5400650CA1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C0932AB74E5400650CA1 /* LoginViewModel.swift */; };
+		DD81C0962AB74E6A00650CA1 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C0952AB74E6A00650CA1 /* RegistrationViewModel.swift */; };
+		DD81C09C2AB7527C00650CA1 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD81C09B2AB7527C00650CA1 /* ContentViewModel.swift */; };
+		DDFC70292AD40FB70067AB08 /* NewWordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC70282AD40FB70067AB08 /* NewWordViewModel.swift */; };
+		DDFC702C2AD413AC0067AB08 /* WordListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC702B2AD413AB0067AB08 /* WordListViewModel.swift */; };
+		DDFC702E2AD4140D0067AB08 /* WordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC702D2AD4140D0067AB08 /* WordService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD52F0C62AD6B37D005174E4 /* SpellingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingViewModel.swift; sourceTree = "<group>"; };
+		DD52F0C82AD6B51C005174E4 /* ChooseTheCorrectOptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTheCorrectOptionViewModel.swift; sourceTree = "<group>"; };
+		DD52F0CA2AD6BDA6005174E4 /* CorespondenceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorespondenceViewModel.swift; sourceTree = "<group>"; };
+		DD52F0CC2AD6C3E0005174E4 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		DD81C0402AB07D3800650CA1 /* Ladichka Perfect English.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ladichka Perfect English.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD81C0432AB07D3800650CA1 /* Ladichka_Perfect_EnglishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ladichka_Perfect_EnglishApp.swift; sourceTree = "<group>"; };
+		DD81C0452AB07D3800650CA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD81C0472AB07D3900650CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD81C04A2AB07D3900650CA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD81C05C2AB07EC000650CA1 /* NewWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWordView.swift; sourceTree = "<group>"; };
+		DD81C0602AB07EDA00650CA1 /* RepeatWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatWordView.swift; sourceTree = "<group>"; };
+		DD81C0622AB07EED00650CA1 /* WordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListView.swift; sourceTree = "<group>"; };
+		DD81C0642AB07EFB00650CA1 /* CustomToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolBar.swift; sourceTree = "<group>"; };
+		DD81C0672AB0809600650CA1 /* paprika.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = paprika.ttf; sourceTree = "<group>"; };
+		DD81C0692AB082E300650CA1 /* Ladichka-Perfect-English-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ladichka-Perfect-English-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DD81C06A2AB0838300650CA1 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		DD81C06E2AB0869800650CA1 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		DD81C0702AB35A2F00650CA1 /* СorrespondenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СorrespondenceView.swift"; sourceTree = "<group>"; };
+		DD81C0722AB3610500650CA1 /* ChooseTheCorrectOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTheCorrectOptionView.swift; sourceTree = "<group>"; };
+		DD81C0742AB3635700650CA1 /* SpellingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingView.swift; sourceTree = "<group>"; };
+		DD81C07A2AB4C4A700650CA1 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		DD81C07C2AB4C69A00650CA1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		DD81C07E2AB74C3300650CA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD81C08A2AB74D0C00650CA1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		DD81C08C2AB74D7000650CA1 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		DD81C08E2AB74D9100650CA1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DD81C0912AB74E0D00650CA1 /* FirestoreConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreConstants.swift; sourceTree = "<group>"; };
+		DD81C0932AB74E5400650CA1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DD81C0952AB74E6A00650CA1 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		DD81C09B2AB7527C00650CA1 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		DDFC70282AD40FB70067AB08 /* NewWordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWordViewModel.swift; sourceTree = "<group>"; };
+		DDFC702B2AD413AB0067AB08 /* WordListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListViewModel.swift; sourceTree = "<group>"; };
+		DDFC702D2AD4140D0067AB08 /* WordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD81C03D2AB07D3800650CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD81C0822AB74C8700650CA1 /* FirebaseAuth in Frameworks */,
+				DD81C0882AB74C8700650CA1 /* FirebaseStorage in Frameworks */,
+				DD81C0842AB74C8700650CA1 /* FirebaseFirestore in Frameworks */,
+				DD81C0862AB74C8700650CA1 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD52F0C52AD6B36D005174E4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD52F0C62AD6B37D005174E4 /* SpellingViewModel.swift */,
+				DD52F0C82AD6B51C005174E4 /* ChooseTheCorrectOptionViewModel.swift */,
+				DD52F0CA2AD6BDA6005174E4 /* CorespondenceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD81C0372AB07D3800650CA1 = {
+			isa = PBXGroup;
+			children = (
+				DD81C0422AB07D3800650CA1 /* Ladichka Perfect English */,
+				DD81C0412AB07D3800650CA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD81C0412AB07D3800650CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C0402AB07D3800650CA1 /* Ladichka Perfect English.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD81C0422AB07D3800650CA1 /* Ladichka Perfect English */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C09A2AB7520D00650CA1 /* App */,
+				DD81C0902AB74DFF00650CA1 /* Utils */,
+				DD81C0552AB07E6A00650CA1 /* Model */,
+				DD81C0542AB07E5E00650CA1 /* Service */,
+				DD81C0572AB07E7700650CA1 /* LaunchScreen */,
+				DD81C0762AB4C47400650CA1 /* Auth */,
+				DD81C0562AB07E7300650CA1 /* Core */,
+				DD81C0532AB07E4E00650CA1 /* RepeatWord */,
+				DD81C0522AB07E3E00650CA1 /* WordList */,
+				DD81C0512AB07E1A00650CA1 /* NewWord */,
+				DD81C0972AB751F000650CA1 /* Root */,
+				DD81C0472AB07D3900650CA1 /* Assets.xcassets */,
+				DD81C07E2AB74C3300650CA1 /* GoogleService-Info.plist */,
+				DD81C0692AB082E300650CA1 /* Ladichka-Perfect-English-Info.plist */,
+				DD81C0492AB07D3900650CA1 /* Preview Content */,
+			);
+			path = "Ladichka Perfect English";
+			sourceTree = "<group>";
+		};
+		DD81C0492AB07D3900650CA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C04A2AB07D3900650CA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD81C0512AB07E1A00650CA1 /* NewWord */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC70272AD40FA50067AB08 /* ViewModel */,
+				DD81C05B2AB07E9D00650CA1 /* View */,
+			);
+			path = NewWord;
+			sourceTree = "<group>";
+		};
+		DD81C0522AB07E3E00650CA1 /* WordList */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC702A2AD4138E0067AB08 /* ViewModel */,
+				DD81C05A2AB07E9A00650CA1 /* VIew */,
+			);
+			path = WordList;
+			sourceTree = "<group>";
+		};
+		DD81C0532AB07E4E00650CA1 /* RepeatWord */ = {
+			isa = PBXGroup;
+			children = (
+				DD52F0C52AD6B36D005174E4 /* ViewModel */,
+				DD81C0592AB07E9600650CA1 /* View */,
+			);
+			path = RepeatWord;
+			sourceTree = "<group>";
+		};
+		DD81C0542AB07E5E00650CA1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C08C2AB74D7000650CA1 /* UserService.swift */,
+				DDFC702D2AD4140D0067AB08 /* WordService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DD81C0552AB07E6A00650CA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C06E2AB0869800650CA1 /* Word.swift */,
+				DD81C08E2AB74D9100650CA1 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD81C0562AB07E7300650CA1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C0662AB0805900650CA1 /* Font */,
+				DD81C0582AB07E9200650CA1 /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DD81C0572AB07E7700650CA1 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C06A2AB0838300650CA1 /* LaunchScreen.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		DD81C0582AB07E9200650CA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C0642AB07EFB00650CA1 /* CustomToolBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD81C0592AB07E9600650CA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C0602AB07EDA00650CA1 /* RepeatWordView.swift */,
+				DD81C0702AB35A2F00650CA1 /* СorrespondenceView.swift */,
+				DD81C0722AB3610500650CA1 /* ChooseTheCorrectOptionView.swift */,
+				DD81C0742AB3635700650CA1 /* SpellingView.swift */,
+				DD52F0CC2AD6C3E0005174E4 /* AlertView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD81C05A2AB07E9A00650CA1 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C0622AB07EED00650CA1 /* WordListView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		DD81C05B2AB07E9D00650CA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C05C2AB07EC000650CA1 /* NewWordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD81C0662AB0805900650CA1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C0672AB0809600650CA1 /* paprika.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		DD81C0762AB4C47400650CA1 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C0892AB74CF600650CA1 /* Sercive */,
+				DD81C0792AB4C48900650CA1 /* ViewModel */,
+				DD81C0772AB4C48000650CA1 /* View */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		DD81C0772AB4C48000650CA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C07A2AB4C4A700650CA1 /* SignInView.swift */,
+				DD81C07C2AB4C69A00650CA1 /* SignUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD81C0792AB4C48900650CA1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C0932AB74E5400650CA1 /* LoginViewModel.swift */,
+				DD81C0952AB74E6A00650CA1 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD81C0892AB74CF600650CA1 /* Sercive */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C08A2AB74D0C00650CA1 /* AuthService.swift */,
+			);
+			path = Sercive;
+			sourceTree = "<group>";
+		};
+		DD81C0902AB74DFF00650CA1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C0912AB74E0D00650CA1 /* FirestoreConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DD81C0972AB751F000650CA1 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C0992AB751FE00650CA1 /* ViewModel */,
+				DD81C0982AB751F800650CA1 /* View */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		DD81C0982AB751F800650CA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C0452AB07D3800650CA1 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD81C0992AB751FE00650CA1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C09B2AB7527C00650CA1 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD81C09A2AB7520D00650CA1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DD81C0432AB07D3800650CA1 /* Ladichka_Perfect_EnglishApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DDFC70272AD40FA50067AB08 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC70282AD40FB70067AB08 /* NewWordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDFC702A2AD4138E0067AB08 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC702B2AD413AB0067AB08 /* WordListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD81C03F2AB07D3800650CA1 /* Ladichka Perfect English */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD81C04E2AB07D3900650CA1 /* Build configuration list for PBXNativeTarget "Ladichka Perfect English" */;
+			buildPhases = (
+				DD81C03C2AB07D3800650CA1 /* Sources */,
+				DD81C03D2AB07D3800650CA1 /* Frameworks */,
+				DD81C03E2AB07D3800650CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ladichka Perfect English";
+			packageProductDependencies = (
+				DD81C0812AB74C8700650CA1 /* FirebaseAuth */,
+				DD81C0832AB74C8700650CA1 /* FirebaseFirestore */,
+				DD81C0852AB74C8700650CA1 /* FirebaseFirestoreSwift */,
+				DD81C0872AB74C8700650CA1 /* FirebaseStorage */,
+			);
+			productName = "Ladichka Perfect English";
+			productReference = DD81C0402AB07D3800650CA1 /* Ladichka Perfect English.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD81C0382AB07D3800650CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DD81C03F2AB07D3800650CA1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DD81C03B2AB07D3800650CA1 /* Build configuration list for PBXProject "Ladichka Perfect English" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD81C0372AB07D3800650CA1;
+			packageReferences = (
+				DD81C0802AB74C8700650CA1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = DD81C0412AB07D3800650CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD81C03F2AB07D3800650CA1 /* Ladichka Perfect English */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD81C03E2AB07D3800650CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD81C07F2AB74C3300650CA1 /* GoogleService-Info.plist in Resources */,
+				DD81C04B2AB07D3900650CA1 /* Preview Assets.xcassets in Resources */,
+				DD81C0682AB0829200650CA1 /* paprika.ttf in Resources */,
+				DD81C0482AB07D3900650CA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD81C03C2AB07D3800650CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD81C0922AB74E0D00650CA1 /* FirestoreConstants.swift in Sources */,
+				DD81C06B2AB0838300650CA1 /* LaunchScreen.swift in Sources */,
+				DD52F0CD2AD6C3E0005174E4 /* AlertView.swift in Sources */,
+				DD81C06F2AB0869800650CA1 /* Word.swift in Sources */,
+				DD81C0962AB74E6A00650CA1 /* RegistrationViewModel.swift in Sources */,
+				DD81C09C2AB7527C00650CA1 /* ContentViewModel.swift in Sources */,
+				DD81C0732AB3610500650CA1 /* ChooseTheCorrectOptionView.swift in Sources */,
+				DD81C0712AB35A2F00650CA1 /* СorrespondenceView.swift in Sources */,
+				DD81C08F2AB74D9100650CA1 /* User.swift in Sources */,
+				DD81C0612AB07EDA00650CA1 /* RepeatWordView.swift in Sources */,
+				DDFC70292AD40FB70067AB08 /* NewWordViewModel.swift in Sources */,
+				DDFC702C2AD413AC0067AB08 /* WordListViewModel.swift in Sources */,
+				DD81C0632AB07EED00650CA1 /* WordListView.swift in Sources */,
+				DD81C0942AB74E5400650CA1 /* LoginViewModel.swift in Sources */,
+				DD52F0CB2AD6BDA6005174E4 /* CorespondenceViewModel.swift in Sources */,
+				DD52F0C72AD6B37D005174E4 /* SpellingViewModel.swift in Sources */,
+				DD81C07B2AB4C4A700650CA1 /* SignInView.swift in Sources */,
+				DD81C0652AB07EFB00650CA1 /* CustomToolBar.swift in Sources */,
+				DD81C07D2AB4C69A00650CA1 /* SignUpView.swift in Sources */,
+				DD81C0462AB07D3800650CA1 /* ContentView.swift in Sources */,
+				DD81C05D2AB07EC000650CA1 /* NewWordView.swift in Sources */,
+				DD81C08D2AB74D7000650CA1 /* UserService.swift in Sources */,
+				DDFC702E2AD4140D0067AB08 /* WordService.swift in Sources */,
+				DD81C0752AB3635800650CA1 /* SpellingView.swift in Sources */,
+				DD52F0C92AD6B51C005174E4 /* ChooseTheCorrectOptionViewModel.swift in Sources */,
+				DD81C0442AB07D3800650CA1 /* Ladichka_Perfect_EnglishApp.swift in Sources */,
+				DD81C08B2AB74D0C00650CA1 /* AuthService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD81C04C2AB07D3900650CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD81C04D2AB07D3900650CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD81C04F2AB07D3900650CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ladichka Perfect English/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SJ46G89S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ladichka-Perfect-English-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kosharny.Ladichka-Perfect-English";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD81C0502AB07D3900650CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ladichka Perfect English/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SJ46G89S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ladichka-Perfect-English-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kosharny.Ladichka-Perfect-English";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD81C03B2AB07D3800650CA1 /* Build configuration list for PBXProject "Ladichka Perfect English" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD81C04C2AB07D3900650CA1 /* Debug */,
+				DD81C04D2AB07D3900650CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD81C04E2AB07D3900650CA1 /* Build configuration list for PBXNativeTarget "Ladichka Perfect English" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD81C04F2AB07D3900650CA1 /* Debug */,
+				DD81C0502AB07D3900650CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD81C0802AB74C8700650CA1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD81C0812AB74C8700650CA1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD81C0802AB74C8700650CA1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DD81C0832AB74C8700650CA1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD81C0802AB74C8700650CA1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DD81C0852AB74C8700650CA1 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD81C0802AB74C8700650CA1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		DD81C0872AB74C8700650CA1 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD81C0802AB74C8700650CA1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DD81C0382AB07D3800650CA1 /* Project object */;
+}

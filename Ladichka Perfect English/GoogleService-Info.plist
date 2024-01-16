@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCFIsH-ArB8mlfA1MnO7qZ0oO7ixnr1-fY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>442221829890</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kosharny.Ladichka-Perfect-English</string>
+	<key>PROJECT_ID</key>
+	<string>ladichka-perfect-english</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ladichka-perfect-english.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:442221829890:ios:bb1c0e4b807711a7e96c1b</string>
+</dict>
+</plist>
